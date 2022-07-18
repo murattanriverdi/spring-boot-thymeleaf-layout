@@ -1,0 +1,25 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{_fragments/_layout.html}">
+<head>
+    <title>Student Index</title>
+</head>
+<body>
+<th:block layout:fragment="content">
+    <p>Student Page</p>
+
+</th:block>
+
+<th:block layout:fragment="script">
+    <script>
+    $( document ).ready(function() {
+     alert("student page");
+    });
+    </script>
+
+</th:block>
+</body>
+</html>
+
+

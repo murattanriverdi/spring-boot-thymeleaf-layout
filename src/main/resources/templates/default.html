@@ -1,0 +1,26 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{_fragments/_layout.html}">
+<head>
+    <title>Homepage</title>
+</head>
+<body>
+<th:block layout:fragment="content">
+    <p>Homepage</p>
+
+</th:block>
+
+<th:block layout:fragment="script">
+
+<script>
+   $( document ).ready(function() {
+     alert("homepage");
+    });
+    </script>
+
+</th:block>
+</body>
+</html>
+
+
